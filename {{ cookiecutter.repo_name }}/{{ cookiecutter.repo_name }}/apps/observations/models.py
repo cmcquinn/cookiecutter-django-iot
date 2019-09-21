@@ -11,7 +11,7 @@ class BaseAttribute(models.Model):
     valid_at = models.DateTimeField(db_index=True)
 
     # device that's the source of the attribute
-    device = models.ForeignKey('devices.Device')
+    device = models.ForeignKey('devices.Device', on_delete=models.PROTECT)
 
     class Meta:
         abstract = True
