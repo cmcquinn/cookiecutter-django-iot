@@ -43,7 +43,7 @@ INSTALLED_APPS = (
     '{{ cookiecutter.repo_name }}.apps.interactions',
 )
 
-MIDDLEWARE_CLASSES = (
+MIDDLEWARE = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
