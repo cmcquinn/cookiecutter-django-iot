@@ -1,11 +1,11 @@
 {
-	"full_name": "Anna Schneider",
-	"email": "annarschneider@gmail.com",
-	"github_username": "aschn",
+	"full_name": "Cameron McQuinn",
+	"email": "cameron.mcquinn@gmail.com",
+	"github_username": "cmcquinn",
 	"project_name": "Django for IoT",
 	"repo_name": "django_iot",
 	"heroku_name": "django-iot-demo",
 	"description": "Cookiecutter template for IoT projects using Django (with celery and Heroku support)",
 	"open_source_license": "MIT",
-	"year": "2016"
+	"year": "2019"
 }

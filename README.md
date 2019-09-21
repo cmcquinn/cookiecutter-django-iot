@@ -1,12 +1,14 @@
 # cookiecutter-django-iot
 Cookiecutter template for IoT projects using Django (with celery and Heroku support)
 
+Forked from [aschn/cookiecutter-django-iot.git](https://github.com/aschn/cookiecutter-django-iot.git)
+
 # Description
 
-This cookiecutter template is a great place to start if you're building a Django app to monitor and control third-party Internet of Things devices through their APIs. It was originally assembled to accompany my talk on Django for IoT at DjangoCon Europe 2016 ([slides](https://speakerdeck.com/aschn/django-for-internet-of-things-from-hackathon-to-production), [video](https://opbeat.com/events/djangocon-eu-2016#iot-with-django-from-hackathon-to-production)).
+This cookiecutter template is a great place to start if you're building a Django app to monitor and control third-party Internet of Things devices through their APIs. It was originally assembled to accompany Anna Schneider's talk on Django for IoT at DjangoCon Europe 2016 ([slides](https://speakerdeck.com/aschn/django-for-internet-of-things-from-hackathon-to-production), [video](https://opbeat.com/events/djangocon-eu-2016#iot-with-django-from-hackathon-to-production)).
 
 Features:
-* Django 1.9
+* Django 2.2.5
 * Bootstrap 3
 * Celery 3.1
 * Heroku compatible
@@ -20,7 +22,7 @@ Features:
 
 ```
 pip install cookiecutter
-cookiecutter https://github.com/aschn/cookiecutter-django-iot.git
+cookiecutter https://github.com/cmcquinn/cookiecutter-django-iot.git
 ```
 
 Then follow the README in the repo!

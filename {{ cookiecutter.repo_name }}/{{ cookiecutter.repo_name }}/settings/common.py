@@ -1,6 +1,6 @@
 """
 Django settings for {{ cookiecutter.project_name }} project on Heroku. For more info, see:
-https://github.com/aschn/cookiecutter-django-iot
+https://github.com/cmcquinn/cookiecutter-django-iot
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.9/topics/settings/
